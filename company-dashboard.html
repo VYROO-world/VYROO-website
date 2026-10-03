@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Dashboard | VYROO</title>
+    <meta name="description" content="Manage your rental inventory and bookings from the VYROO company dashboard." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html"><span class="brand-mark">V</span><span>VYROO</span></a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="browse.html">Browse</a>
+          <a href="company-dashboard.html">Dashboard</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="link-ghost" href="index.html">Logout</a>
+          <a class="btn btn-primary" href="register-company.html">Add product</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-shell dashboard-shell">
+      <section class="container page-header dashboard-header">
+        <div>
+          <p class="mini-label">Partner dashboard</p>
+          <h1>RideFlex Rentals</h1>
+        </div>
+        <a class="btn btn-primary" href="register-company.html">+ Add new listing</a>
+      </section>
+
+      <section class="container dashboard-stats">
+        <div class="stat-box">
+          <span>Total listings</span>
+          <strong>84</strong>
+        </div>
+        <div class="stat-box">
+          <span>Ongoing bookings</span>
+          <strong>26</strong>
+        </div>
+        <div class="stat-box">
+          <span>Revenue this month</span>
+          <strong>₹3.4L</strong>
+        </div>
+        <div class="stat-box">
+          <span>Avg. rating</span>
+          <strong>4.9</strong>
+        </div>
+      </section>
+
+      <section class="container dashboard-grid">
+        <div class="panel-card wide-panel">
+          <div class="panel-head">
+            <h3>Recent bookings</h3>
+            <a href="#">View all</a>
+          </div>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Customer</th>
+                <th>Product</th>
+                <th>Dates</th>
+                <th>Status</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Neha K.</td>
+                <td>BMW 3 Series</td>
+                <td>12-15 Oct</td>
+                <td><span class="status confirmed">Confirmed</span></td>
+                <td>₹10,497</td>
+              </tr>
+              <tr>
+                <td>Rohit S.</td>
+                <td>MacBook Pro 14</td>
+                <td>08-10 Oct</td>
+                <td><span class="status active">Active</span></td>
+                <td>₹2,598</td>
+              </tr>
+              <tr>
+                <td>Ananya P.</td>
+                <td>Camera Kit</td>
+                <td>18-20 Oct</td>
+                <td><span class="status pending">Pending</span></td>
+                <td>₹5,697</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="panel-card">
+          <div class="panel-head">
+            <h3>Inventory</h3>
+            <a href="#">Manage</a>
+          </div>
+          <ul class="simple-list">
+            <li>BMW 3 Series <span>Available</span></li>
+            <li>MacBook Pro 14 <span>Available</span></li>
+            <li>Royal Enfield Classic <span>Booked</span></li>
+            <li>Camera Kit <span>Available</span></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div class="footer-brand">
+          <a class="brand" href="index.html"><span class="brand-mark">V</span><span>VYROO</span></a>
+          <p>Marketplace for rental companies and customers.</p>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h4>Explore</h4>
+            <a href="browse.html">Browse</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <h4>For companies</h4>
+            <a href="register-company.html">Register</a>
+            <a href="company-dashboard.html">Dashboard</a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom"><span>© <span id="year"></span> VYROO. All rights reserved.</span></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

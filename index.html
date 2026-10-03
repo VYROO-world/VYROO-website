@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VYROO | Home</title>
+    <meta
+      name="description"
+      content="VYROO helps buyers, renters, and sellers discover premium homes and trusted local experts."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="VYROO home">
+          <span class="brand-mark">V</span>
+          <span>VYROO</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="browse.html">Browse</a>
+          <a href="register-company.html">For companies</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="link-ghost" href="login.html">Login</a>
+          <a class="btn btn-primary" href="register-company.html">List your item</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Rent anything nearby</span>
+            <h1>Find rentals from trusted companies.</h1>
+            <p class="hero-text">
+              Cars, laptops, bikes, drones, PS5, power tools, cameras and more — compare prices,
+              check suppliers, and choose what you want to rent without the hassle of ownership.
+            </p>
+
+            <div class="search-panel" aria-label="Marketplace search">
+              <div class="search-box-row">
+                <div class="search-field">
+                  <label>Looking for</label>
+                  <span>Car, laptop, PS5...</span>
+                </div>
+                <div class="search-field">
+                  <label>City</label>
+                  <span>Bengaluru, Mumbai</span>
+                </div>
+                <div class="search-field">
+                  <label>Category</label>
+                  <span>All rentals</span>
+                </div>
+                <a class="btn btn-primary search-btn" href="browse.html">Search</a>
+              </div>
+            </div>
+
+            <div class="trust-row">
+              <div>
+                <strong>400+</strong>
+                <span>Rental companies</span>
+              </div>
+              <div>
+                <strong>12k+</strong>
+                <span>Products listed</span>
+              </div>
+              <div>
+                <strong>25+</strong>
+                <span>Cities covered</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Marketplace featured listing">
+            <div class="product-highlight">
+              <img
+                src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80"
+                alt="Car rental showcase"
+              />
+              <div class="highlight-card">
+                <div class="badge">Featured partner</div>
+                <h3>RideFlex Rentals</h3>
+                <p>Premium sedans and SUVs • Verified fleet</p>
+                <div class="price-row">
+                  <strong>₹2,999/day</strong>
+                  <span>From citywide partner</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories" id="buy">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">Browse by category</span>
+              <h2>What do you need to rent today?</h2>
+            </div>
+            <a href="browse.html" class="view-link">See all categories</a>
+          </div>
+
+          <div class="category-grid">
+            <a class="category-card car-card" href="browse.html">
+              <span class="category-thumb emoji" aria-label="Cars">🚗</span>
+              <span>Cars</span>
+            </a>
+            <a class="category-card laptop-card" href="browse.html">
+              <span class="category-thumb emoji" aria-label="Laptops">💻</span>
+              <span>Laptops</span>
+            </a>
+            <a class="category-card bike-card" href="browse.html">
+              <span class="category-thumb emoji" aria-label="Bikes">🏍️</span>
+              <span>Bikes</span>
+            </a>
+            <a class="category-card camera-card" href="browse.html">
+              <span class="category-thumb emoji" aria-label="Cameras">📷</span>
+              <span>Cameras</span>
+            </a>
+            <a class="category-card drone-card" href="browse.html">
+              <span class="category-thumb emoji" aria-label="Drones">🛩️</span>
+              <span>Drones</span>
+            </a>
+            <a class="category-card ps5-card" href="browse.html">
+              <span class="category-thumb emoji" aria-label="PS5">🎮</span>
+              <span>PS5</span>
+            </a>
+            <a class="category-card tools-card" href="browse.html">
+              <span class="category-thumb emoji" aria-label="Power tools">🧰</span>
+              <span>Power tools</span>
+            </a>
+            <a class="category-card audio-card" href="browse.html">
+              <span class="category-thumb emoji" aria-label="Audio">🎧</span>
+              <span>Audio</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured" id="listings">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">Best sellers</span>
+              <h2>Products from trusted rental companies</h2>
+            </div>
+            <a href="#" class="view-link">Browse listings</a>
+          </div>
+
+          <div class="property-grid">
+            <article class="property-card">
+              <img
+                src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80"
+                alt="Luxury sports car"
+              />
+              <div class="card-body">
+                <div class="listing-label">RideFlex Rentals</div>
+                <div class="meta-row">
+                  <span>Automatic</span>
+                  <span>5 seats</span>
+                  <span>Free pickup</span>
+                </div>
+                <h3>BMW 3 Series</h3>
+                <p>Downtown, Bengaluru</p>
+                <div class="card-footer">
+                  <strong>₹3,499/day</strong>
+                  <button type="button">Choose this</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="property-card">
+              <img
+                src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=80"
+                alt="Laptop on desk"
+              />
+              <div class="card-body">
+                <div class="listing-label">TechLoop Rentals</div>
+                <div class="meta-row">
+                  <span>14-inch</span>
+                  <span>i7 / 16GB</span>
+                  <span>New</span>
+                </div>
+                <h3>MacBook Pro 14</h3>
+                <p>Koramangala, Bengaluru</p>
+                <div class="card-footer">
+                  <strong>₹1,299/day</strong>
+                  <button type="button">Choose this</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="property-card">
+              <img
+                src="https://images.unsplash.com/photo-1558980664-10e7170b5df9?auto=format&fit=crop&w=900&q=80"
+                alt="Bike parked outdoors"
+              />
+              <div class="card-body">
+                <div class="listing-label">MotoRent Co.</div>
+                <div class="meta-row">
+                  <span>Sports</span>
+                  <span>Insured</span>
+                  <span>Weekend ready</span>
+                </div>
+                <h3>Royal Enfield Classic</h3>
+                <p>Pune</p>
+                <div class="card-footer">
+                  <strong>₹1,699/day</strong>
+                  <button type="button">Choose this</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="property-card">
+              <img
+                src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=80"
+                alt="Camera gear"
+              />
+              <div class="card-body">
+                <div class="listing-label">LensNest</div>
+                <div class="meta-row">
+                  <span>4K</span>
+                  <span>Tripod included</span>
+                  <span>Verified</span>
+                </div>
+                <h3>Mirrorless Camera Kit</h3>
+                <p>Powai, Mumbai</p>
+                <div class="card-footer">
+                  <strong>₹1,899/day</strong>
+                  <button type="button">Choose this</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="property-card">
+              <img
+                src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=900&q=80"
+                alt="Drone flying"
+              />
+              <div class="card-body">
+                <div class="listing-label">SkyFleet Rentals</div>
+                <div class="meta-row">
+                  <span>4K video</span>
+                  <span>Battery x2</span>
+                  <span>Pro pack</span>
+                </div>
+                <h3>4K Drone Pro</h3>
+                <p>Hyderabad</p>
+                <div class="card-footer">
+                  <strong>₹2,499/day</strong>
+                  <button type="button">Choose this</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="property-card">
+              <img
+                src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80"
+                alt="Headphones in product shot"
+              />
+              <div class="card-body">
+                <div class="listing-label">GearHub</div>
+                <div class="meta-row">
+                  <span>Noise cancel</span>
+                  <span>Bluetooth</span>
+                  <span>Premium</span>
+                </div>
+                <h3>Studio Headphones</h3>
+                <p>Andheri, Mumbai</p>
+                <div class="card-footer">
+                  <strong>₹499/day</strong>
+                  <button type="button">Choose this</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" id="resources">
+        <div class="container">
+          <div class="section-header center">
+            <span class="eyebrow">For both sides</span>
+            <h2>Built for rental companies and renters</h2>
+          </div>
+
+          <div class="feature-grid">
+            <div class="feature-card">
+              <div class="icon-wrap">01</div>
+              <h3>Company onboarding</h3>
+              <p>Rental businesses can register quickly, create profiles, and publish products with pricing and availability.</p>
+            </div>
+            <div class="feature-card">
+              <div class="icon-wrap">02</div>
+              <h3>Customer browsing</h3>
+              <p>Customers search by item type, company, price, and location to find the right rental option.</p>
+            </div>
+            <div class="feature-card">
+              <div class="icon-wrap">03</div>
+              <h3>Instant comparison</h3>
+              <p>Users compare multiple rental companies side by side before choosing the best offer.</p>
+            </div>
+            <div class="feature-card">
+              <div class="icon-wrap">04</div>
+              <h3>Trust and support</h3>
+              <p>Verified partners, clear terms, and secure bookings help customers rent with confidence.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="steps" id="how-it-works">
+        <div class="container">
+          <div class="section-header center">
+            <span class="eyebrow">How it works</span>
+            <h2>Simple for companies and clients</h2>
+          </div>
+
+          <div class="step-grid">
+            <div class="step-card">
+              <span class="step-number">1</span>
+              <h3>Register</h3>
+              <p>Rental companies set up their profile and list available products with pricing and delivery details.</p>
+            </div>
+            <div class="step-card">
+              <span class="step-number">2</span>
+              <h3>Browse</h3>
+              <p>Customers explore listings by category, city, and company to find the ideal rental match.</p>
+            </div>
+            <div class="step-card">
+              <span class="step-number">3</span>
+              <h3>Book</h3>
+              <p>Choose the rental, confirm dates, and complete the booking in just a few clicks.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews" id="agents">
+        <div class="container">
+          <div class="section-header center">
+            <span class="eyebrow">Marketplace trust</span>
+            <h2>Used by rental businesses and customers</h2>
+          </div>
+
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p>
+                “We registered our fleet and started getting more bookings in weeks. It feels like a proper digital marketplace for rental companies.”
+              </p>
+              <div class="author">
+                <strong>Raj M.</strong>
+                <span>Business owner</span>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p>
+                “I compared a few rental companies and selected the best package for my trip. The experience was fast and transparent.”
+              </p>
+              <div class="author">
+                <strong>Priya N.</strong>
+                <span>Customer</span>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p>
+                “The platform makes it easy for small rental businesses to reach customers without building their own storefront.”
+              </p>
+              <div class="author">
+                <strong>Vikas D.</strong>
+                <span>Rental partner</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-banner" id="contact">
+        <div class="container cta-box">
+          <div>
+            <span class="eyebrow light">Join the marketplace</span>
+            <h2>Register your rental company and start listing.</h2>
+          </div>
+          <a class="btn btn-light" href="#">Become a partner</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div class="footer-brand">
+          <a class="brand" href="#">
+            <span class="brand-mark">V</span>
+            <span>VYROO</span>
+          </a>
+          <p>Helping people find the right place to call home.</p>
+        </div>
+
+        <div class="footer-links">
+          <div>
+            <h4>Explore</h4>
+            <a href="#buy">Buy</a>
+            <a href="#rent">Rent</a>
+            <a href="#sell">Sell</a>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <a href="#agents">Agents</a>
+            <a href="#resources">Resources</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> VYROO. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | VYROO</title>
+    <meta name="description" content="Contact VYROO for support, partnerships, or general inquiries." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html"><span class="brand-mark">V</span><span>VYROO</span></a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="browse.html">Browse</a>
+          <a href="register-company.html">For Companies</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="link-ghost" href="login.html">Login</a>
+          <a class="btn btn-primary" href="register-company.html">Register company</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="container form-layout contact-layout">
+        <div class="form-copy">
+          <p class="mini-label">Support</p>
+          <h1>We’re here to help.</h1>
+          <p>Need help booking a product, joining as a partner, or learning more about VYROO? Send us a message.</p>
+          <div class="contact-points">
+            <p><strong>Email:</strong> hello@vyroo.com</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Address:</strong> Bengaluru, India</p>
+          </div>
+        </div>
+
+        <form class="form-card">
+          <div class="form-grid two-col">
+            <div class="field-group">
+              <label>Your name</label>
+              <input type="text" placeholder="Your full name" />
+            </div>
+            <div class="field-group">
+              <label>Email</label>
+              <input type="email" placeholder="you@example.com" />
+            </div>
+            <div class="field-group full-width">
+              <label>Subject</label>
+              <input type="text" placeholder="Booking support / Become a partner" />
+            </div>
+            <div class="field-group full-width">
+              <label>Message</label>
+              <textarea rows="5" placeholder="Tell us how we can help"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary full-btn">Send message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div class="footer-brand">
+          <a class="brand" href="index.html"><span class="brand-mark">V</span><span>VYROO</span></a>
+          <p>Marketplace for rental companies and customers.</p>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h4>Explore</h4>
+            <a href="browse.html">Browse</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <h4>For companies</h4>
+            <a href="register-company.html">Register</a>
+            <a href="company-dashboard.html">Dashboard</a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom"><span>© <span id="year"></span> VYROO. All rights reserved.</span></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

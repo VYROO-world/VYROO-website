@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse Rentals | VYROO</title>
+    <meta name="description" content="Browse available rental products from verified rental companies on VYROO." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html"><span class="brand-mark">V</span><span>VYROO</span></a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="browse.html">Browse</a>
+          <a href="register-company.html">For Companies</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="link-ghost" href="login.html">Login</a>
+          <a class="btn btn-primary" href="register-company.html">Register company</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="container page-header">
+        <div>
+          <p class="mini-label">Marketplace</p>
+          <h1>Browse rental products</h1>
+        </div>
+        <a class="btn btn-primary" href="register-company.html">List your product</a>
+      </section>
+
+      <section class="container filter-panel">
+        <div class="filter-grid">
+          <div class="search-field">
+            <label>Search</label>
+            <span>Car, laptop, camera...</span>
+          </div>
+          <div class="search-field">
+            <label>Category</label>
+            <span>All categories</span>
+          </div>
+          <div class="search-field">
+            <label>Location</label>
+            <span>All cities</span>
+          </div>
+          <div class="search-field">
+            <label>Price</label>
+            <span>Under ₹3,000/day</span>
+          </div>
+          <button class="btn btn-primary">Apply filters</button>
+        </div>
+      </section>
+
+      <section class="container listing-layout">
+        <aside class="sidebar">
+          <div class="side-card">
+            <h3>Category</h3>
+            <ul>
+              <li><a href="#">Vehicles</a></li>
+              <li><a href="#">Electronics</a></li>
+              <li><a href="#">Camera gear</a></li>
+              <li><a href="#">Drones</a></li>
+              <li><a href="#">Audio</a></li>
+            </ul>
+          </div>
+          <div class="side-card">
+            <h3>Price</h3>
+            <label class="check-item"><input type="checkbox" /> Under ₹500/day</label>
+            <label class="check-item"><input type="checkbox" /> ₹500 - ₹1,500</label>
+            <label class="check-item"><input type="checkbox" /> ₹1,500 - ₹3,000</label>
+            <label class="check-item"><input type="checkbox" /> ₹3,000+</label>
+          </div>
+        </aside>
+
+        <div class="results-panel">
+          <div class="results-topbar">
+            <p>Showing 24 rentals</p>
+            <select>
+              <option>Newest first</option>
+              <option>Price low to high</option>
+              <option>Price high to low</option>
+            </select>
+          </div>
+
+          <div class="property-grid browse-grid">
+            <article class="property-card">
+              <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80" alt="BMW 3 series" />
+              <div class="card-body">
+                <div class="listing-label">RideFlex Rentals</div>
+                <div class="meta-row"><span>Automatic</span><span>5 seats</span><span>Free pickup</span></div>
+                <h3>BMW 3 Series</h3>
+                <p>Downtown, Bengaluru</p>
+                <div class="card-footer"><strong>₹3,499/day</strong><a href="product.html" class="pill-link">View</a></div>
+              </div>
+            </article>
+
+            <article class="property-card">
+              <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=80" alt="MacBook Pro 14" />
+              <div class="card-body">
+                <div class="listing-label">TechLoop Rentals</div>
+                <div class="meta-row"><span>14-inch</span><span>i7 / 16GB</span><span>New</span></div>
+                <h3>MacBook Pro 14</h3>
+                <p>Koramangala, Bengaluru</p>
+                <div class="card-footer"><strong>₹1,299/day</strong><a href="product.html" class="pill-link">View</a></div>
+              </div>
+            </article>
+
+            <article class="property-card">
+              <img src="https://images.unsplash.com/photo-1558980664-10e7170b5df9?auto=format&fit=crop&w=900&q=80" alt="Royal Enfield Classic" />
+              <div class="card-body">
+                <div class="listing-label">MotoRent Co.</div>
+                <div class="meta-row"><span>Sports</span><span>Insured</span><span>Weekend ready</span></div>
+                <h3>Royal Enfield Classic</h3>
+                <p>Pune</p>
+                <div class="card-footer"><strong>₹1,699/day</strong><a href="product.html" class="pill-link">View</a></div>
+              </div>
+            </article>
+
+            <article class="property-card">
+              <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=80" alt="Mirrorless Camera Kit" />
+              <div class="card-body">
+                <div class="listing-label">LensNest</div>
+                <div class="meta-row"><span>4K</span><span>Tripod included</span><span>Verified</span></div>
+                <h3>Mirrorless Camera Kit</h3>
+                <p>Powai, Mumbai</p>
+                <div class="card-footer"><strong>₹1,899/day</strong><a href="product.html" class="pill-link">View</a></div>
+              </div>
+            </article>
+
+            <article class="property-card">
+              <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=900&q=80" alt="4K drone" />
+              <div class="card-body">
+                <div class="listing-label">SkyFleet Rentals</div>
+                <div class="meta-row"><span>4K video</span><span>Battery x2</span><span>Pro pack</span></div>
+                <h3>4K Drone Pro</h3>
+                <p>Hyderabad</p>
+                <div class="card-footer"><strong>₹2,499/day</strong><a href="product.html" class="pill-link">View</a></div>
+              </div>
+            </article>
+
+            <article class="property-card">
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80" alt="Studio Headphones" />
+              <div class="card-body">
+                <div class="listing-label">GearHub</div>
+                <div class="meta-row"><span>Noise cancel</span><span>Bluetooth</span><span>Premium</span></div>
+                <h3>Studio Headphones</h3>
+                <p>Andheri, Mumbai</p>
+                <div class="card-footer"><strong>₹499/day</strong><a href="product.html" class="pill-link">View</a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div class="footer-brand">
+          <a class="brand" href="index.html"><span class="brand-mark">V</span><span>VYROO</span></a>
+          <p>Marketplace for rental companies and customers.</p>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h4>Explore</h4>
+            <a href="browse.html">Browse</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <h4>For companies</h4>
+            <a href="register-company.html">Register</a>
+            <a href="company-dashboard.html">Dashboard</a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom"><span>© <span id="year"></span> VYROO. All rights reserved.</span></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
